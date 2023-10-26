@@ -18,6 +18,8 @@ test2_df = Sept_Task_df # For this sample code, simply copy input to output
 
 
 
+
+
 # Write recipe outputs
 test2 = dataiku.Dataset("test2")
 test2.write_with_schema(test2_df)
