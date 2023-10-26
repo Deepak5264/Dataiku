@@ -52,9 +52,9 @@
             "type": "github",
             "configuration": {
               "useProxy": true,
-              "username": "mshahid1996",
-              "accessToken": "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",
-              "repository": "https://github.com/mshahid1996/test_dataiku.git"
+              "username": "Deepak5264",
+              "accessToken": "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",
+              "repository": "https://github.com/Deepak5264/Dataiku.git"
             }
           }
         }
@@ -224,11 +224,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-    "lastModifiedOn": 1698313509640,
+    "lastModifiedOn": 1698317836866,
     "extendedProperties": {}
   },
   "creationTag": {
