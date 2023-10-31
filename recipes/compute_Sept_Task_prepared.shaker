@@ -29,8 +29,72 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "VisualIfRule",
+      "params": {
+        "legacyPositioning": false,
+        "visualIfDesc": {
+          "elseIfThens": [],
+          "elseActions": [
+            {
+              "outputColumnName": "col_2",
+              "column": "col_0",
+              "formula": "",
+              "value": "False",
+              "operator": "ASSIGN_VALUE"
+            }
+          ],
+          "ifThen": {
+            "filter": {
+              "uiData": {
+                "mode": "\u0026\u0026",
+                "conditions": [
+                  {
+                    "input": "col_0",
+                    "col": "col_1",
+                    "string": "",
+                    "num": 0.0,
+                    "items": [
+                      {
+                        "num": 45171.0
+                      },
+                      {
+                        "num": 45173.0
+                      },
+                      {
+                        "num": 45175.0
+                      }
+                    ],
+                    "operator": "in [number]"
+                  }
+                ]
+              },
+              "distinct": true,
+              "enabled": true
+            },
+            "actions": [
+              {
+                "outputColumnName": "col_2",
+                "column": "col_0",
+                "formula": "",
+                "value": "True",
+                "operator": "ASSIGN_VALUE"
+              }
+            ]
+          }
+        }
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -57,7 +121,11 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "col_2": 100,
+    "col_1": 300,
+    "col_0": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
