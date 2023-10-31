@@ -3,6 +3,7 @@
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
+import time
 
 # Read recipe inputs
 Sept_Task = dataiku.Dataset("Sept_Task")
@@ -15,7 +16,7 @@ Sept_Task_df = Sept_Task.get_dataframe()
 
 test2_df = Sept_Task_df # For this sample code, simply copy input to output
 
-
+time.sleep(100)
 
 
 
