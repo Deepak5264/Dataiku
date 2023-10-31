@@ -29,8 +29,54 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "VisualIfRule",
+      "params": {
+        "legacyPositioning": false,
+        "visualIfDesc": {
+          "elseIfThens": [],
+          "elseActions": [],
+          "ifThen": {
+            "filter": {
+              "uiData": {
+                "mode": "\u0026\u0026",
+                "conditions": [
+                  {
+                    "input": "col_1",
+                    "col": "col_1",
+                    "string": "Sunday",
+                    "num": 0.0,
+                    "items": [],
+                    "operator": "contains"
+                  }
+                ]
+              },
+              "distinct": true,
+              "enabled": true
+            },
+            "actions": [
+              {
+                "outputColumnName": "Weekends2",
+                "column": "col_0",
+                "formula": "",
+                "value": "True",
+                "operator": "ASSIGN_VALUE"
+              }
+            ]
+          }
+        }
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -57,7 +103,12 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "Weekends2": 100,
+    "col_1": 300,
+    "col_0": 100,
+    "Weekend": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
