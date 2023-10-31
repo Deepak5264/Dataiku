@@ -1,3 +1,4 @@
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # -*- coding: utf-8 -*-
 import dataiku
 import pandas as pd, numpy as np
@@ -16,11 +17,6 @@ Sept_Task_df = Sept_Task.get_dataframe()
 test2_df = Sept_Task_df # For this sample code, simply copy input to output
 
 time.sleep(100)
-
-
-# Mohd Shahid
-
-
 
 
 
