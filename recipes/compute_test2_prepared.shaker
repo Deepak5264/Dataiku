@@ -52,10 +52,19 @@
                   {
                     "input": "col_1",
                     "col": "col_1",
-                    "string": "Saturday",
+
+                    "string": "Sunday",
                     "num": 0.0,
                     "items": [],
                     "operator": "contains"
+                  },
+                  {
+                    "input": "col_1",
+                    "col": "col_1",
+                    "string": "Saturday",
+                    "num": 0.0,
+                    "operator": "contains"
+
                   }
                 ]
               },
@@ -67,7 +76,8 @@
                 "outputColumnName": "Weekend",
                 "column": "col_0",
                 "formula": "",
-                "value": "True",
+
+                "value": "0",
                 "operator": "ASSIGN_VALUE"
               }
             ]

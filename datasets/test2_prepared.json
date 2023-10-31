@@ -41,7 +41,8 @@
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-    "lastModifiedOn": 1698743454763,
+
+    "lastModifiedOn": 1698315969037,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -49,7 +50,8 @@
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-    "lastModifiedOn": 1698743374675,
+
+    "lastModifiedOn": 1698315874154,
     "extendedProperties": {}
   },
   "tags": [],
@@ -72,7 +74,8 @@
     "columns": [
       {"name":"col_0","type":"string"},
       {"name":"col_1","type":"string"},
-      {"name":"Weekend","type":"boolean"}
+
+      {"name":"Weekend","type":"string"}
     ],
     "userModified": true
   },
