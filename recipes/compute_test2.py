@@ -15,7 +15,7 @@ Sept_Task_df = Sept_Task.get_dataframe()
 
 test2_df = Sept_Task_df # For this sample code, simply copy input to output
 
-time.sleep(100)
+time.sleep(10)
 
 
 # Mohd Shahid
