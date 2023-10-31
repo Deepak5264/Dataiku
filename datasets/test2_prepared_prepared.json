@@ -37,11 +37,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-    "lastModifiedOn": 1698743917600,
+    "lastModifiedOn": 1698743973949,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -72,6 +72,7 @@
     "columns": [
       {"name":"col_0","type":"string"},
       {"name":"col_1","type":"string"},
+      {"name":"Weekends2","type":"boolean"},
       {"name":"Weekend","type":"boolean"}
     ],
     "userModified": true
